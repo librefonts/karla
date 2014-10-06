@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [Karla-Regular.ttf.ttx, Karla-Italic.ttf.ttx, Karla-BoldItalic.ttf.ttx,
+  Karla-Bold.ttf.ttx, src/Karla-Regular-TTF.sfd, src/Karla-Italic-TTF.sfd, src/Karla-BoldItalic-TTF.sfd,
+  src/Karla-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
